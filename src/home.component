@@ -1,0 +1,26 @@
+<can-component tag="shop-home">
+
+  <template>
+  
+    <div class="jumbotron">
+        <h1>Vintage things are vintage</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus bibendum volutpat tellus non eleifend. Sed auctor euismod mi ac ultrices. In congue scelerisque orci, aliquet commodo magna gravida ac. </p>
+        <p>
+          <a class="btn btn-lg btn-primary" href="{{routeUrl page='cart'}}" role="button">Go to Cart</a>
+        </p>
+      </div>
+    
+  </template>
+  <script type="view-model">
+    import Map from 'can/map/';
+    import 'can/map/define/';
+
+    export default Map.extend({
+      define: {
+        message: {
+          value: 'This is the shop-home component'
+        }
+      }
+    });
+  </script>
+</can-component>

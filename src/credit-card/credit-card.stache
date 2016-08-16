@@ -1,0 +1,11 @@
+<form>
+  <div class="form-group">
+    <label>Card Number</label>
+    <input type="text" class="form-control" placeholder="123456789012">
+  </div>
+  <div class="form-group">
+    <label>CCV</label>
+    <input type="text" class="form-control" placeholder="123">
+  </div>
+</form>
+<hr />

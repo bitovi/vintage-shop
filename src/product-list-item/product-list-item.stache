@@ -1,0 +1,7 @@
+<div class="col-md-6">
+  <img src="{{image}}" />
+  <h3>{{title}}</h3>
+  <strong>${{price}}</strong>
+  <button class="btn btn-success">Add to Cart</button>
+  <hr />
+</div>

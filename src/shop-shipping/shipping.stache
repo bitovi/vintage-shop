@@ -1,0 +1,18 @@
+<can-import from="vintage-shop/address-form/address-form.js" />
+<can-import from="vintage-shop/cart-list/cart-list.js" />
+
+<h2>Shipping</h2>
+<p>{{message}}</p>
+<hr />
+
+<div class="row">
+  <div class="col-md-8">
+    <address-form/>
+  </div>
+  <div class="col-md-4">
+    <cart-list/>
+  </div>
+</div>
+
+
+<a href="{{routeUrl page='billing'}}" class="btn btn-primary">Continue</a>

@@ -1,0 +1,4 @@
+<img src="{{image}}" />
+<h4>{{title}}</h4>
+<strong>${{price}}</strong>
+<p>{{description}}</p>
