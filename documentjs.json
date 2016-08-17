@@ -1,14 +1,18 @@
 {
   "sites": {
     "docs": {
-      "dest": "docs",
-      "parent": "vintage-shop",
+      "dest": "styleguide",
+      "parent": "index",
       "pageConfig": {
         "page": "docs"
       },
       "glob": {
-        "pattern": "src/**/*.{js,md}"
+        "pattern": "src/**/*.{css,less,md}"
       }
     }
+  },
+  "siteDefaults": {
+    "templates": "styleguide-theme/templates",
+    "static": "styleguide-theme/static"
   }
 }
