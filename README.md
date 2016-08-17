@@ -8,15 +8,8 @@ To install all dependencies, (e.g. after cloning it from a Git repository) run
 
 ```
 npm install donejs -g
+npm install documentjs -g
 npm install
-```
-
-## Running tests
-
-Tests can be run with
-
-```
-donejs test
 ```
 
 ## Development mode
@@ -26,17 +19,12 @@ Development mode can be started with
 ```
 donejs develop
 ```
+The app will be available at `http://localhost:8080`
 
-## Build and production mode
 
-To build the application into a production bundle run
-
-```
-donejs build
-```
-
-In Unix environment the production application can be started like this:
+## Generating the style guide
 
 ```
-NODE_ENV=production npm start
+documentjs -f
 ```
+The style guide will be available at `http://localhost:8080/styleguide/`
