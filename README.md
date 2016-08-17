@@ -31,4 +31,4 @@ The style guide will be available at `http://localhost:8080/styleguide/`
 
 ## Mockups
 
-Mockups for this app are located at: [http://share.bitovi.com/V0EZ44/](http://share.bitovi.com/V0EZ44/)
+Mockups for this app are located at: [http://share.bitovi.com/h4nmgn/](http://share.bitovi.com/h4nmgn/)
