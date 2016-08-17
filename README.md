@@ -28,3 +28,7 @@ The app will be available at `http://localhost:8080`
 documentjs -f
 ```
 The style guide will be available at `http://localhost:8080/styleguide/`
+
+## Mockups
+
+Mockups for this app are located at: [http://share.bitovi.com/V0EZ44/](http://share.bitovi.com/V0EZ44/)
