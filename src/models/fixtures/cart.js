@@ -11,7 +11,7 @@ const store = fixture.store([{
      qty: '2',
      title: 'Vintage Chair',
      description: 'White with natural wood.',
-     image: 'http://lorempixel.com/200/200/technics/1'
+     image: 'src/base/images/chair.png'
    },
     {
      id: 6,
@@ -21,7 +21,7 @@ const store = fixture.store([{
      qty: '1',
      title: 'Wire basket',
      description: 'Metal wire.',
-     image: 'http://lorempixel.com/200/200/technics/2'
+     image: 'src/base/images/basket.png'
    } 
   ]
 }, {
@@ -32,14 +32,14 @@ const store = fixture.store([{
      price: '35.00',
      title: 'Vintage Clock',
      description: 'Silver.',
-     image: 'http://lorempixel.com/200/200/technics/3'
+     image: 'src/base/images/clock.png'
    },
     {
      id: 8,
      price: '82.00',
      title: 'Vintage Camera',
      description: 'Black and silver.',
-     image: 'http://lorempixel.com/200/200/technics/4'
+     image: 'src/base/images/camera.png'
    } 
   ]
 }]);

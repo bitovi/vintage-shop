@@ -1,6 +1,12 @@
 <div class="col-md-6">
-  <img class="img-responsive" src="{{image}}" />
-  <h3>{{title}} <span>${{price}}</span></h3>
-  <p class="text-muted">{{description}}</p>
-  <button class="btn btn-success">Add to Cart</button>
+  <div class="row">
+    <div class="col-xs-2">
+      <img class="img-responsive" src="{{image}}" />
+    </div>
+    <div class="col-xs-10">
+      <h3>{{title}} <span>${{price}}</span></h3>
+      <p class="text-muted">{{description}}</p>
+      <button class="btn btn-success">Add to Cart</button>
+    </div>
+  </div>
 </div>

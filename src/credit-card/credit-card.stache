@@ -1,12 +1,12 @@
 <form>
   <div class="row">
-    <div class="col-md-10">
+    <div class="col-sm-10">
       <div class="form-group">
         <label>Card Number</label>
         <input type="text" class="form-control" placeholder="123456789012">
       </div>
     </div>
-    <div class="col-md-2">
+    <div class="col-sm-2">
       <div class="form-group">
         <label>CCV <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></label>
         <input type="text" class="form-control" placeholder="123">
@@ -14,7 +14,7 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-md-5">
+    <div class="col-sm-5">
       <div class="form-group">
         <label>Expiration Month</label>
         <select class="form-control">
@@ -23,7 +23,7 @@
         </select>
       </div>
     </div>
-    <div class="col-md-5">
+    <div class="col-sm-5">
       <div class="form-group">
         <label>Expiration Year</label>
         <select class="form-control">
@@ -32,7 +32,7 @@
         </select>
       </div>
     </div>
-    <div class="col-md-2">
+    <div class="col-sm-2">
       <div class="form-group">
         <label>Zip</label>
         <input type="text" class="form-control" placeholder="60548">
