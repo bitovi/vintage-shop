@@ -2,11 +2,9 @@
 
 <h3>In Your Cart</h3>
 <hr />
-<p>{{message}}</p>
 
 {{#each cartPromise.value.items}}
   <cart-item/>
 {{/each}}
 
-<hr />
-<p>Total: $24.99</p>
+<p>Total: <strong>$163.00</strong></p>

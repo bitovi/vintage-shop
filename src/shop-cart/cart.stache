@@ -1,11 +1,8 @@
 <can-import from="vintage-shop/cart-list/" />
 <can-import from="vintage-shop/recommended-list/" />
 
-<h2>Cart</h2>
-<p>{{message}}</p>
+
 <cart-list/>
-
+<p><small>We accept major credit and debit cards.</small></p>
 <a href="{{routeUrl page='shipping'}}" class="btn btn-primary">Checkout</a>
-
-<hr />
 <recommended-list/>

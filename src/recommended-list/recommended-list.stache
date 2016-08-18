@@ -1,8 +1,10 @@
 <can-import from="vintage-shop/product-list-item/" />
 
 <h2>Customers Also Bought</h2>
-<div class="row">
-  {{#each cartRecommended.value.items}}
-    <product-list-item/>
-  {{/each}}
-</div>
+<hr />
+  <div class="row">
+    {{#each cartRecommended.value.items}}
+      <product-list-item/>
+    {{/each}}
+  </div>
+<hr />

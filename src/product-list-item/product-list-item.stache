@@ -1,7 +1,6 @@
 <div class="col-md-6">
-  <img src="{{image}}" />
-  <h3>{{title}}</h3>
-  <strong>${{price}}</strong>
+  <img class="img-responsive" src="{{image}}" />
+  <h3>{{title}} <span>${{price}}</span></h3>
+  <p class="text-muted">{{description}}</p>
   <button class="btn btn-success">Add to Cart</button>
-  <hr />
 </div>

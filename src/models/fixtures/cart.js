@@ -5,14 +5,20 @@ const store = fixture.store([{
   items: [
    {
      id: 5,
-     price: '70.00',
+     price: '80.00',
+     totalPrice: '140.00',
+     retailPrice: '160.00',
+     qty: '2',
      title: 'Vintage Chair',
      description: 'White with natural wood.',
      image: 'http://lorempixel.com/200/200/technics/1'
    },
     {
      id: 6,
-     price: '32.00',
+     price: '25.00',
+     totalPrice: '23.00',
+     retailPrice: '25.00',
+     qty: '1',
      title: 'Wire basket',
      description: 'Metal wire.',
      image: 'http://lorempixel.com/200/200/technics/2'

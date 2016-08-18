@@ -1,14 +1,18 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <title>{{title}}</title>
   </head>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  
   <body>
     <can-import from="bootstrap/less/bootstrap.less!" />
     <can-import from="vintage-shop/styles.less!" />
     <can-import from="vintage-shop/app" export-as="viewModel" />
     <can-import from="vintage-shop/header/header.js" />
 
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-sm-12">
           
