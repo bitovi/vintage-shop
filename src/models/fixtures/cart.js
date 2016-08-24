@@ -11,7 +11,7 @@ const store = fixture.store([{
      qty: '2',
      title: 'Vintage Chair',
      description: 'White with natural wood.',
-     image: 'src/base/images/chair.png'
+     image: '//dl.dropboxusercontent.com/u/3843531/bitovi/vintage-shop/chair.png'
    },
     {
      id: 6,
@@ -21,7 +21,7 @@ const store = fixture.store([{
      qty: '1',
      title: 'Wire basket',
      description: 'Metal wire.',
-     image: 'src/base/images/basket.png'
+     image: '//dl.dropboxusercontent.com/u/3843531/bitovi/vintage-shop/basket.png'
    } 
   ]
 }, {
@@ -32,14 +32,14 @@ const store = fixture.store([{
      price: '35.00',
      title: 'Vintage Clock',
      description: 'Silver.',
-     image: 'src/base/images/clock.png'
+     image: '//dl.dropboxusercontent.com/u/3843531/bitovi/vintage-shop/clock.png'
    },
     {
      id: 8,
      price: '82.00',
      title: 'Vintage Camera',
      description: 'Black and silver.',
-     image: 'src/base/images/camera.png'
+     image: '//dl.dropboxusercontent.com/u/3843531/bitovi/vintage-shop/camera.png'
    } 
   ]
 }]);
