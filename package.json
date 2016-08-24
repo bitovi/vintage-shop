@@ -44,13 +44,15 @@
     "steal": "^0.16.0"
   },
   "devDependencies": {
+    "can-fixture": "^0.1.2",
     "documentjs": "^0.4.2",
+    "donejs-cli": "^0.9.4",
     "donejs-deploy": "^0.4.0",
     "funcunit": "~3.0.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-less": "^1.4.0",
     "steal-qunit": "^0.1.1",
     "steal-tools": "^0.16.0",
-    "testee": "^0.2.4",
-    "donejs-cli": "^0.9.4",
-    "can-fixture": "^0.1.2"
+    "testee": "^0.2.4"
   }
 }
