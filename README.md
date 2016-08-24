@@ -4,11 +4,18 @@ Welcome to the vintage-shop DoneJS application!
 
 ## Getting started
 
+You'll need Node and Git installed already.
+
 To install all dependencies, (e.g. after cloning it from a Git repository) run
 
 ```
 npm install donejs -g
 npm install documentjs -g
+npm install grunt -g
+```
+
+Once you've installed the global dependencies:
+```
 npm install
 ```
 
