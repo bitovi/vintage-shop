@@ -1,19 +1,19 @@
 import Component from 'can/component/';
 import Map from 'can/map/';
 import 'can/map/define/';
-import './header.less!';
-import template from './header.stache!';
+import './app-header.less!';
+import template from './app-header.stache!';
 
 export const ViewModel = Map.extend({
   define: {
     message: {
-      value: 'This is the header component'
+      value: 'This is the app-header component'
     }
   }
 });
 
 export default Component.extend({
-  tag: 'shop-header',
+  tag: 'app-header',
   viewModel: ViewModel,
   template
 });

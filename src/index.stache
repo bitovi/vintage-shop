@@ -10,13 +10,13 @@
     <can-import from="bootstrap/less/bootstrap.less!" />
     <can-import from="vintage-shop/styles.less!" />
     <can-import from="vintage-shop/app" export-as="viewModel" />
-    <can-import from="vintage-shop/header/header.js" />
+    <can-import from="vintage-shop/app-header/app-header.js" />
 
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-12">
           
-          <shop-header/>
+          <app-header/>
           
           {{#eq page 'cart'}}
             <can-import from="vintage-shop/shop-cart/cart.js">
