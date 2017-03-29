@@ -3,8 +3,6 @@ import 'vintage-shop/test/functional';
 
 import 'vintage-shop/cart/cart_test';
 
-import 'vintage-shop/header/header_test';
-
 import 'vintage-shop/shipping/shipping_test';
 
 import 'vintage-shop/shop-cart/cart-list/cart-list_test';
