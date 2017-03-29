@@ -1,8 +1,9 @@
 @bootstrap-path: '../node_modules/bootstrap/less';
+@base-path: '../src/base/bootstrap-custom';
 @components-path: '../src';
 
 // Core variables and mixins
-@import "@{bootstrap-path}/variables.less";
+@import "@{base-path}/variables.less";
 @import "@{bootstrap-path}/mixins.less";
 
 // Reset and dependencies
@@ -18,6 +19,7 @@
 @import "@{bootstrap-path}/tables.less";
 @import "@{bootstrap-path}/forms.less";
 @import "@{bootstrap-path}/buttons.less";
+@import "@{base-path}/buttons/buttons-custom.less";
 
 // Components
 @import "@{bootstrap-path}/component-animations.less";
