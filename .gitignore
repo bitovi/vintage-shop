@@ -1,3 +1,8 @@
 .gitignore
 node_modules/
 styleguide/
+dist/
+
+dist/bundles/vintage-shop/index.css
+
+dist/bundles/vintage-shop/index.js
