@@ -1,6 +1,7 @@
 <script type="text/stache" can-autorender id="demo">
   <can-import from="vintage-shop/cart-item/" />
   <can-import from="vintage-shop/models/fixtures/fixtures" />
+  <can-import from="vintage-shop/styles.less" />
 
   <cart-item {item}="item"></cart-item>
 </script>
@@ -17,4 +18,4 @@ Cart.get({id:0}).then(function(cart){
 });
         
 </script>
-<link rel="stylesheet" href="../../styles.less" />
+

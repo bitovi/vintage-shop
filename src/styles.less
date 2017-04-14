@@ -3,6 +3,7 @@
 @components-path: '../src';
 
 // Core variables and mixins
+@import "@{base-path}/type/type-custom-font.less";
 @import "@{base-path}/variables.less";
 @import "@{bootstrap-path}/mixins.less";
 
@@ -13,13 +14,21 @@
 
 // Core CSS
 @import "@{bootstrap-path}/scaffolding.less";
+
 @import "@{bootstrap-path}/type.less";
+@import "@{base-path}/type/type-custom.less";
+
 @import "@{bootstrap-path}/code.less";
 @import "@{bootstrap-path}/grid.less";
 @import "@{bootstrap-path}/tables.less";
+
 @import "@{bootstrap-path}/forms.less";
+@import "@{base-path}/forms/forms-custom.less";
+
 @import "@{bootstrap-path}/buttons.less";
 @import "@{base-path}/buttons/buttons-custom.less";
+
+@import "../src/base/icons/icons.less";
 
 // Components
 @import "@{bootstrap-path}/component-animations.less";
@@ -54,5 +63,3 @@
 @import "@{bootstrap-path}/utilities.less";
 @import "@{bootstrap-path}/responsive-utilities.less";
 
-// Components
-@import "@{components-path}/address-form/address-form.less";

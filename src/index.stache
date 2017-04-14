@@ -16,46 +16,53 @@
         <div class="col-sm-12">
           
           <app-header/>
-          
-          {{#eq page 'cart'}}
-            <can-import from="vintage-shop/shop-cart/cart.js">
-              {{#if isPending}}
-                Loading...
-              {{else}}
-                <shop-cart/>
-              {{/if}}
-            </can-import>
-          {{/eq}}
-          
-        {{#eq page 'shipping'}}
-            <can-import from="vintage-shop/shop-shipping/shipping.js">
-              {{#if isPending}}
-                Loading...
-              {{else}}
-                <shop-shipping/>
-              {{/if}}
-            </can-import>
-          {{/eq}}
-          
-          {{#eq page 'billing'}}
-            <can-import from="vintage-shop/shop-billing/billing.js">
-              {{#if isPending}}
-                Loading...
-              {{else}}
-                <shop-billing/>
-              {{/if}}
-            </can-import>
-          {{/eq}}
-          
-          {{#eq page 'home'}}
-            <can-import from="vintage-shop/home.component!">
-              {{#if isPending}}
-                Loading...
-              {{else}}
-                <shop-home/>
-              {{/if}}
-            </can-import>
-          {{/eq}}
+
+          {{#switch page}}
+            {{#case 'cart'}}
+              <can-import from="vintage-shop/shop-cart/cart.js">
+                {{#if isPending}}
+                  Loading...
+                {{else}}
+                  <shop-cart/>
+                {{/if}}
+              </can-import>
+            {{/case}}
+
+            {{#case 'shipping'}}
+              <can-import from="vintage-shop/shop-shipping/shipping.js">
+                {{#if isPending}}
+                  Loading...
+                {{else}}
+                  <shop-shipping/>
+                {{/if}}
+              </can-import>
+            {{/case}}
+
+            {{#case 'billing'}}
+              <can-import from="vintage-shop/shop-billing/billing.js">
+                {{#if isPending}}
+                  Loading...
+                {{else}}
+                  <shop-billing/>
+                {{/if}}
+              </can-import>
+            {{/case}}
+
+
+            {{#case 'home'}}
+              <can-import from="vintage-shop/home.component!">
+                {{#if isPending}}
+                  Loading...
+                {{else}}
+                  <shop-home/>
+                {{/if}}
+              </can-import>
+            {{/case}}
+
+            {{#default}}
+              <div class="alert alert-warning" role="alert">404 Page Not Found.</div>
+            {{/default}}
+          {{/switch}}
           
         </div>
       </div>

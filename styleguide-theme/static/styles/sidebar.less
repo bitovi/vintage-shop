@@ -62,6 +62,7 @@
       line-height: 2.5em;
       display: block;
       font-weight: normal;
+      margin-left: -5px;
     }
     li {
       line-height: @line-height*1.5;
@@ -69,15 +70,16 @@
       position: relative;
       a {
         display: block;
+        color: @color-links;
         &:hover {
           text-decoration: underline;
-          color: @night;
+          color: @color-links;
         }
       }
     }
     li li li li a {
       font-size: .9em;
-      color: @thunderStorm;
+      color: @color-links;
     }
     > li > ul {
       /* display: none; */
@@ -131,19 +133,14 @@
     li li.active > a, .sidebar .api li li.active > a:hover {
       position: relative;
       display : block;
+      font-weight: bold;
+      color: @night;
     }
     li li.active > a:hover {
       background: none;
     }
     li li.active:before {
-      position: absolute;
       content: '';
-      display: block;
-      border-left: 4px solid @rain;
-      width: 4px;
-      height: 20px;
-      left: -4px;
-      top: 1px;
     }
     li li li.active:before {
       left: 20px;
@@ -161,7 +158,7 @@
 .sidebar {
   .api {
     li a {
-      font-size: 14px;
+      font-size: 16px;
       line-height: 20px;
       text-indent:0;
       padding-left:10px;
