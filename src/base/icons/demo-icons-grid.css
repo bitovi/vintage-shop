@@ -1,0 +1,26 @@
+.grid{
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.grid li {
+    width: 19%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    padding: 5px;
+    margin: 0 auto 20px;
+}
+
+.grid code {
+    font-size: 13px;
+    display: block;
+}
+.grid li div {
+    margin-bottom: 7px;
+}
+.grid li span {
+    font-size: 30px;
+    line-height: 2;
+}

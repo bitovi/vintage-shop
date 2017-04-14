@@ -1,0 +1,58 @@
+<link rel="stylesheet" href="../../../../../dist/bundles/wallet-ui/index.css">
+<style>
+    .content {
+        padding: 20px;
+    }
+</style>
+
+<div class="content">
+  <form>
+      <fieldset>
+          <legend>Login Information</legend>
+
+          <div class="form-group">
+              <label for="inputEmail" class="control-label">
+                  Name:
+              </label>
+              <div>
+                  <input type="text" class="form-control" id="inputEmail" placeholder="Enter your full name">
+              </div>
+          </div>
+
+          <div class="form-group">
+              <label for="inputEmail" class="control-label" disabled="">
+                  Email:
+              </label>
+              <div>
+                  <input type="email" class="form-control" id="inputEmail" placeholder="Enter your email">
+              </div>
+          </div>
+
+      </fieldset>
+
+      <fieldset>
+          <legend>Additional Information</legend>
+
+          <div class="form-group">
+              <label for="aboutYou" class="control-label">
+                  About You:
+              </label>
+              <div>
+                  <textarea class="form-control" rows="3" id="aboutYou"></textarea>
+                  <span class="help-block">
+                      Tell us a bit about yourself.
+                  </span>
+              </div>
+          </div>
+
+          <div class="form-group">
+              <div class="pull-right">
+                  <button class="btn btn-default">Cancel</button>
+                  <button type="submit" class="btn btn-primary">Continue</button>
+              </div>
+          </div>
+
+      </fieldset>
+  </form>
+</div>
+
