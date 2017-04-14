@@ -17,7 +17,7 @@
           
           <app-header/>
 
-          {{#switch displayedPage}}
+          {{#switch page}}
             {{#case 'cart'}}
               <can-import from="vintage-shop/shop-cart/cart.js">
                 {{#if isPending}}
