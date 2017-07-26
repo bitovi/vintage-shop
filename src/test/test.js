@@ -20,3 +20,5 @@ import 'vintage-shop/product-list-item/product-list-item_test';
 import 'vintage-shop/credit-card/credit-card_test';
 
 import 'vintage-shop/app-header/app-header_test';
+
+import 'vintage-shop/search-bar/search-bar_test';
