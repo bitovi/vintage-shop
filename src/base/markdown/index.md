@@ -1,4 +1,4 @@
-@page index Welcome!
+@page index Welcome
 
 In this website you will find documentation about the base styles and components 
 library used for the Vintage Shop.

@@ -8,7 +8,7 @@
 
 // Used to structure the main parts of a page, such as the header, the body, and the footer.
 .container {
-  width: 980px;
+  width: 100%; //overriding standard container width
   margin: 0 auto;
 }
 
@@ -29,7 +29,13 @@
   float: left;
 }
 footer {
-  margin-top: 20px;
-  padding: 20px;
-  border-top: @border;
+  padding: 0;
+  width: 100%;
+  float: left;
+  p {
+    font-size: 13px;
+    text-align: right;
+    margin-right: 10px;
+    margin-bottom: 0;
+  }
 }

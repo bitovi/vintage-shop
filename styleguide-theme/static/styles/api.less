@@ -41,10 +41,12 @@
     .heading {
       position: relative;
       margin: 0;
+      margin-top: 20px;
       h1 {
         display: inline-block;
-        max-width: 550px;
         word-wrap: break-word;
+        line-height: 1em;
+        margin-bottom: 0;
       }
       .module {
         position: absolute;
@@ -63,6 +65,7 @@
     }
     h2 {
       margin: 0;
+      line-height: 1em;
       code {
         background: none;
         color: @thunderStorm;
@@ -94,6 +97,7 @@
       top: -5px;
           li {
             .simple-tag();
+            margin-bottom: 0;
           }
     }
     .links li {
@@ -115,7 +119,7 @@
   }
   .module,  .inherits,  .title .links li {
     font-size: 14px;
-    color: @cloud;
+    color: @thunderStorm;
     font-weight: normal;
     font-style: normal;
   }
@@ -128,7 +132,11 @@
 // Docs General Styles
 .docs {
   .content.docs {
-    padding: 0 @gutter;
+    width: 78%;
+    float: left;
+    padding: 0 1%;
+    max-height: @content-height;
+    overflow: scroll;
 
     ul, ol:not(.linenums) {
       margin-left: 0;
@@ -167,12 +175,12 @@
 
 // Styles the wrapper of the sidebar and content of the docs.
 .container.api {
-  display: table;
+  display: block;
   table-layout: fixed;
-  padding-top: 30px;
+  padding-top: 0;
 }
 .container.api > * {
-  display: table-cell !important;
+  display: block !important;
   vertical-align: top;
 }
 
@@ -236,6 +244,7 @@
     font-size: 1em;
     line-height: 24px;
     margin: 0;
+    margin-bottom: 10px;
     padding: 3px 15px;
     .text-shadow;
     span {
@@ -437,10 +446,9 @@
   }
 }
 .iframe_wrapper {
-  border-bottom: @border;
   padding-bottom: 10px;
   margin-bottom: 20px;
-  
+
   iframe {
     background-color: @clear;
     width: 100%;

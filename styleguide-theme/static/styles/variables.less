@@ -6,9 +6,9 @@
 * Variables hold all sorts of site-wide visual configurations. This site has color palettes, logo images, and font declarations set, which are demo'd throughout this live style guide.
 **/
 
-@import url('https://fonts.googleapis.com/css?family=Gudea');
+@import url('https://fonts.googleapis.com/css?family=Hind:500');
 
-@font-family: 'Gudea', Helvetica, Arial, sans-serif;
+@font-family: 'Hind', Helvetica, Arial, sans-serif;
 @font-weight: normal;
 @font-size: 16px;
 @line-height: @font-size*1.4;
@@ -27,6 +27,7 @@
 @haze: #dedede;
 @fog: #f0f0f0;
 @clear: #ffffff;
+@fire: #D6073D;
 
 @nightRain: #0a80dd;
 @rain: #0a80dd;
@@ -37,12 +38,14 @@
 
 // Variables used to define color on text elements.
 
-@color-header: @darkSkies;
+@color-header: #1a6cc4;
 @color-links: @rain;
 @color-code: #f9f2f4;
 @color-nav: @darkSkies;
 @color-signature: @darkSkies;
+@accent-color: @fire;
 @font-color-params-returns: @haze;
+
 
 
 // Variables used to set the color on containers and other elements.
@@ -91,8 +94,8 @@
 
 // Variables used to set a logo on the header
 
-@logo: "../img/logo.svg";
-@logo-width: 170px;
+@logo: "../img/logo-edc.png";
+@logo-width: 100px;
 
 // Variables used to space and layout
 
@@ -100,6 +103,10 @@
 @border-radius: 4px;
 
 @border: 1px solid @cloud;
+
+// Variables to set the content height
+
+@content-height: calc(~"92vh - "14px);
 
 
 
