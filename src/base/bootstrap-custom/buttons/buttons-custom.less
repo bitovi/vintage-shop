@@ -1,27 +1,12 @@
-/**
-  *  @stylesheet buttons.less Buttons
-  *  @parent styles.base
-  *
-  *  Global style definitions for all button elements.
-  *  @demo src/base/bootstrap-custom/buttons/buttons-types.html
-  */
+.btn {
+  display: inline-block;
+  margin-bottom: 0; // For input.btn
+  font-weight: @btn-font-weight;
+  text-align: center;
+  vertical-align: middle;
+}
 
-  .btn {
-    display: inline-block;
-    margin-bottom: 0; // For input.btn
-    font-weight: @btn-font-weight;
-    text-align: center;
-    vertical-align: middle;
-  }
-
-  @btn-font-weight:              normal;
-
-/**
-  * @styles buttons-colors Button Colors
-  *
-  * Buttons can be displayed in the following colors:
-  * @demo src/base/bootstrap-custom/buttons/buttons-color.html
-  */
+@btn-font-weight:               normal;
 
 @btn-default-color:              #333;
 @btn-default-bg:                 #fff;
